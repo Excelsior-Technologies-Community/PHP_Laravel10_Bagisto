@@ -1,176 +1,573 @@
-<p align="center">
-  <a href="http://www.bagisto.com">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bagisto/temp-media/0b0984778fae92633f57e625c5494ead1fe320c3/dark-logo-P5H7MBtx.svg">
-      <source media="(prefers-color-scheme: light)" srcset="https://bagisto.com/wp-content/themes/bagisto/images/logo.png">
-      <img src="https://bagisto.com/wp-content/themes/bagisto/images/logo.png" alt="Bagisto logo">
-    </picture>
-  </a>
-</p>
+# PHP_Laravel10_Bagisto
 
-<p align="center">
-    <a href="https://packagist.org/packages/bagisto/bagisto"><img src="https://poser.pugx.org/bagisto/bagisto/d/total.svg" alt="Total Downloads"></a>
-    <a href="https://packagist.org/packages/bagisto/bagisto"><img src="https://poser.pugx.org/bagisto/bagisto/v/stable.svg" alt="Latest Stable Version"></a>
-    <a href="https://packagist.org/packages/bagisto/bagisto"><img src="https://poser.pugx.org/bagisto/bagisto/license.svg" alt="License"></a>
-    <a href="#backers"><img src="https://opencollective.com/bagisto/backers/badge.svg" alt="Backers on Open Collective"></a>
-    <a href="#sponsors"><img src="https://opencollective.com/bagisto/sponsors/badge.svg" alt="Sponsors on Open Collective"></a>
-    <a href="https://www.codetriage.com/bagisto/bagisto"><img src="https://www.codetriage.com/bagisto/bagisto/badges/users.svg" alt="Open Source Helpers"></a>
-</p>
+## Description:
 
-<p align="center">
-    <a href="https://twitter.com/intent/follow?screen_name=bagistoshop"><img src="https://img.shields.io/twitter/follow/bagistoshop?style=social"></a>
-    <a href="https://www.youtube.com/channel/UCbrfqnhyiDv-bb9QuZtonYQ"><img src="https://img.shields.io/youtube/channel/subscribers/UCbrfqnhyiDv-bb9QuZtonYQ?style=social"></a>
-</p>
+PHP_Laravel10_Bagisto is an e-commerce web application built using Bagisto, which is based on Laravel 10.
+This project allows users to browse products, add items to cart, and place orders, while administrators can manage products, categories, customers, and orders from the admin panel.
 
-<p align="center">
-    ➡️ <a href="https://bagisto.com/en/">Website</a> | <a href="https://devdocs.bagisto.com/">Documentation</a> | <a href="https://devdocs.bagisto.com/2.3/introduction/installation.html#installation">Installation Guide</a> | <a href="https://devdocs.bagisto.com/2.3/introduction/docker.html">Docker Installation</a>  | <a href="https://forums.bagisto.com/">Forums</a> | <a href="https://www.facebook.com/groups/bagisto/">Community</a> ⬅️
-</p>
+## Project Objective
 
+The main objective of this project is to:
 
-<p align="center" style="display: inline;">
-    <img class="flag-img" src="https://flagicons.lipis.dev/flags/4x3/ar.svg" alt="Arabic" width="24" height="24">
-    <img class="flag-img" src="https://flagicons.lipis.dev/flags/4x3/de.svg" alt="German" width="24" height="24">
-    <img class="flag-img" src="https://flagicons.lipis.dev/flags/4x3/us.svg" alt="English" width="24" height="24">
-    <img class="flag-img" src="https://flagicons.lipis.dev/flags/4x3/es.svg" alt="Spanish" width="24" height="24">
-    <img class="flag-img" src="https://flagicons.lipis.dev/flags/4x3/ir.svg" alt="Persian" width="24" height="24">
-    <img class="flag-img" src="https://flagicons.lipis.dev/flags/4x3/it.svg" alt="Italian" width="24" height="24">
-    <img class="flag-img" src="https://flagicons.lipis.dev/flags/4x3/nl.svg" alt="Dutch" width="24" height="24">
-    <img class="flag-img" src="https://flagicons.lipis.dev/flags/4x3/pl.svg" alt="Polish" width="24" height="24">
-    <img class="flag-img" src="https://flagicons.lipis.dev/flags/4x3/pt.svg" alt="Portuguese" width="24" height="24">
-    <img class="flag-img" src="https://flagicons.lipis.dev/flags/4x3/tr.svg" alt="Turkish" width="24" height="24">
-    <img class="flag-img" src="https://flagicons.lipis.dev/flags/4x3/eg.svg" alt="Egyptian" width="24" height="24">
-    <img class="flag-img" src="https://flagicons.lipis.dev/flags/4x3/cn.svg" alt="Chinese" width="24" height="24">
-</p>
+Learn Laravel 10 framework
 
-<a href="https://www.youtube.com/watch?v=OHbte7hdxYU">
-    <img class="flag-img" src="https://raw.githubusercontent.com/bagisto/temp-media/master/bagisto-featured.png" alt="Chinese" width="100%">
-</a>
+Understand Bagisto eCommerce architecture
 
-# Introduction
+Implement a ready-made eCommerce system
 
-Bagisto is an opensource [laravel eCommerce](https://www.bagisto.com/) framework built on some of the hottest technologies such as [Laravel](https://laravel.com/) (a [PHP](https://secure.php.net/) framework) and [Vue.js](https://vuejs.org/) a progressive Javascript framework.
+Practice admin & frontend flow
 
-Bagisto can help you cut down your time, cost, and workforce for building online stores or migrating from physical stores to the ever-demanding online world. Your business—whether small or huge—can benefit. The best part, it's straightforward to set it up!
+Use MySQL database with Laravel
 
-![enter image description here](https://raw.githubusercontent.com/bagisto/temp-media/master/stats.webp)
 
-# Getting Started
+## User Roles
+###  Customer (Frontend User)
 
-![enter image description here](https://raw.githubusercontent.com/bagisto/temp-media/master/geting-starded.png)
+View products
 
-[Install Bagisto](https://devdocs.bagisto.com/2.3/introduction/installation.html#install-using-gui-installer) with or without Composer (Check [Requirement Details](https://bagisto.com/en/download/))
+View product details
 
-Follow the [Getting Started with Bagisto](https://www.youtube.com/watch?v=s_DhQrjK8Tw&list=PLe30vg_FG4OS3BU8rHUKQZ2mnX45xwSMc) Tutorial
+Add products to cart
 
-You can browse through the Free [Live Demo](https://demo.bagisto.com/)
+Checkout and place orders
 
-## ☁️ Cloud Installation via Amazon AMI
+### Admin (Backend User)
 
-You can also deploy Bagisto quickly using our pre-configured Amazon Machine Image (AMI) available on the AWS Marketplace:
+Login to admin panel
 
-👉 [**Launch Bagisto on AWS**](https://aws.amazon.com/marketplace/pp/prodview-r3xv62axcqkpa)
+Manage products
 
-This AMI allows you to get started with Bagisto on a cloud environment without manual setup. Ideal for scalable production or testing environments.
+Manage categories
 
-# Accelerate Your Online Store Launch with the Bagisto Starter Pack!
+Manage customers
 
-Empower your e-commerce journey with the [Bagisto Starter Pack](https://store.webkul.com/bagisto-starter-pack.html), streamlining setup and integration for a seamless online store launch. Get ready to unlock success in the digital marketplace! 
+Manage orders
 
-# Open Source B2B eCommerce Platform
+Configure store settings
 
-The [B2B eCommerce Platform](https://bagisto.com/en/b2b-commerce-platform/) enhances your Bagisto store with advanced Business-to-Business (B2B) features. It enables company-based purchasing, multi-user access, quote negotiation, and procurement management — empowering businesses to handle B2B workflows efficiently within a single platform.
 
-![Bagisto B2B Ecommerce Image](https://github.com/bagisto/temp-media/blob/master/intro-banner.webp)
+## Requirements
 
-# Multi Vendor Marketplace
+- PHP >= 8.1
+- Composer
+- MySQL
+- XAMPP / WAMP / Laragon
+- Node.js (optional, for frontend assets)
 
-[Multi Vendor Marketplace](https://bagisto.com/en/laravel-multi-vendor-marketplace/) transforms a standard store into a complete marketplace, allowing the admin to manage sellers, commissions, product approvals, and order handling, while giving vendors a dedicated dashboard to manage their catalog, orders, and transactions.
 
-![Multi Vendor Marketplace Image](https://github.com/bagisto/temp-media/blob/master/multi-vendor-marketplace.webp)
 
-# Multi Tenant eCommerce
+---
 
-[Multi Tenant eCommerce](https://bagisto.com/en/laravel-multi-tenant-saas/) in Bagisto allows businesses to build a SaaS-based marketplace platform where multiple vendors or merchants can create and manage their own individual stores under a single system.
 
-![Multi Tenant eCommerce Image](https://github.com/bagisto/temp-media/blob/master/multi-tenant.webp)
 
-# POS 
+# Project SetUp
 
-[Point of Sale](https://bagisto.com/en/laravel-pos/) system manages retail operations efficiently, handling inventory management and fast customer checkout for your store.
+---
 
-![POS Image](https://github.com/bagisto/temp-media/blob/master/pos.webp)
 
-# Headless Commerce
 
-The power of headless laravel commerce now comes to Bagisto enabling you to experience seamless and easily scalable storefront performance. Backed by some of the hottest tech stacks, Bagisto commerce can now be used to build powerful headless commerce solutions offering blazing-fast speed and easy customization powered by Next.js
+## STEP 1: Create New Bagisto (Laravel 10) Project
 
-## Next.js Commerce
 
-![enter image description here](https://raw.githubusercontent.com/bagisto/temp-media/master/next.png)
+### Run Command :
 
-Develop and deploy your next headless commerce storefronts with Next JS and Bagisto: [https://github.com/bagisto/nextjs-commerce](https://github.com/bagisto/nextjs-commerce)
+```
+composer create-project bagisto/bagisto PHP_Laravel10_Bagisto
 
-# Open Source Mobile eCommerce
+```
 
-Revolutionize Your Online Store with Bagisto's Open Source eCommerce Mobile 
+### Go inside project:
 
-![enter image description here](https://raw.githubusercontent.com/bagisto/temp-media/master/open-source-ecommerce-mobile.png)
+```
+cd PHP_Laravel10_Bagisto
 
-Mobile eCommerce powered by Flutter & Laravel: https://github.com/bagisto/opensource-ecommerce-mobile-app
+```
 
-# AI Powered eCommerce
+This command installs Bagisto with Laravel 10 automatically.
 
-You can integrate popular large language models like GPT-5, Gemini 3, Mistral, and LLaMA 4, Grok (xAI),GLM 4.6,Kimi-K2, Qwen 3, Deepseek etc to build [AI-powered eCommerce](https://bagisto.com/en/extensions/laravel-chatbot-using-openai-chatgpt-llm/) applications with Bagisto. Some of the popular use cases where you can make use of LLMs to build AI apps are chatbot, automated product descriptions, customer support, search, and recommendations.
 
-![enter image description here](https://raw.githubusercontent.com/bagisto/temp-media/master/ai_powered_ecommerce.png)
 
-You can incorporate LLM API with your bagisto applications to send and receive queries and ensure proper error handling and rate limiting to prevent overuse of the API
 
-# Decentralised eCommerce
 
-Build [decentralised applications](https://bagisto.com/en/services/blockchain-commerce/) with Bagisto on popular blockchains like Ethereum and Solana by integrating smart contracts with the eCommerce platform. You can have decentralised marketplaces, [NFT marketplaces](https://bagisto.com/en/nft-marketplace/), and decentralised e-signing with the laravel eCommerce system.
+## STEP 2: Create Database (VERY IMPORTANT)
 
-![enter image description here](https://raw.githubusercontent.com/bagisto/temp-media/master/decentralised-ecommerce.png)
+### Open browser → go to:
 
-# Commerce For Every Need
+```
+http://localhost/phpmyadmin
 
-![enter image description here](https://raw.githubusercontent.com/bagisto/temp-media/master/every-need.png)
+```
 
-With Bagisto, you can easily create use cases for various commerce needs like Marketplaces, PWA, Native Mobile Apps, Multi-Tenants systems, Blockchain and many more.
+1. Click New
 
-# Built In Extensions
+2. Database name (TYPE EXACT):
 
-![enter image description here](https://raw.githubusercontent.com/bagisto/temp-media/master/built_in_extension.png)
+```
+bagisto_laravel10
 
-Make use of 100+ Bagisto pre-built extensions from [Bagisto Extension Markeptlace](https://bagisto.com/en/extensions/)
+```
+3. Click Create
 
-# Community
 
-![enter image description here](https://raw.githubusercontent.com/bagisto/temp-media/master/community.png)
+ Database must exist before install
 
-Get Bagisto support on [Facebook Group](https://www.facebook.com/groups/bagisto) and [Forum](https://forums.bagisto.com/)
-Would like to help us build the most developer-friendly E-Commerce platform? Start by reading our [Contributing Guide](https://github.com/bagisto/bagisto/blob/master/.github/CONTRIBUTING.md)!
 
-# License
-Bagisto is a fully open-source Laravel eCommerce framework that will always remain free under the [MIT License](https://github.com/bagisto/bagisto/blob/2.3/LICENSE).
 
-# Security Vulnerabilities
-If you think that you have found a security issue in Bagisto, please do not use the issue tracker and do not post it publicly. Instead, all security issues must be sent to [mailto:support@bagisto.com](mailto:support@bagisto.com).
+## STEP 3: Open .env file (CRITICAL)
 
-# Contributors
+### Open file:
 
-This project is on [Open Collective](https://opencollective.com/bagisto), and it exists thanks to the people who contribute.
+```
+D:\xampp\htdocs\PHP_Laravel10_Bagisto\.env
 
-<a href="https://github.com/bagisto/bagisto/graphs/contributors"><img src="https://opencollective.com/bagisto/contributors.svg?width=890&button=false"/></a>
+```
 
-# Backers
+### Set EXACTLY like this:
 
-Thank you to all our backers! 🙏
+```
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=bagisto_laravel10
+DB_USERNAME=root
+DB_PASSWORD=
 
-<a href="https://opencollective.com/bagisto" target="_blank"><img src="https://opencollective.com/bagisto/backers.svg?width=890"></a>
+```
+DB_PASSWORD must be EMPTY (no space, no quotes)
 
-# Sponsors
 
-Support this project by becoming a sponsor. Your logo will show up here with a link to your website.
+## Step 4: NOW run installer (this WILL work)
 
-<a href="https://opencollective.com/bagisto" target="_blank"><img src="https://opencollective.com/bagisto/sponsors.svg?width=890&isActive=true"></a>
+### Run:
+
+```
+php artisan bagisto:install
+
+```
+
+You will see install questions
+
+
+## STEP 5: Bagisto Installer – Step by Step (TYPE THIS)
+
+### You are seeing:
+
+```
+Please enter the application name: [Bagisto]
+
+```
+
+### Step 5.1: Application Name
+
+#### Just press ENTER
+
+```
+Bagisto
+
+```
+
+### Step 5.2: Application URL
+
+#### You will see:
+
+```
+Please enter the application URL: [http://localhost]
+
+```
+#### Type:
+
+```
+http://127.0.0.1:8000
+
+```
+
+Press ENTER
+
+
+
+### Step 5.3: Database Connection
+
+#### You will see:
+
+```
+ Please select the database connection: [mysql]
+
+```
+#### Type:
+
+```
+mysql
+
+```
+
+Press ENTER
+
+
+
+### Step 5.4: Database Host
+
+#### You will see:
+
+```
+ Please enter the database host: [127.0.0.1]
+
+```
+#### Type:
+
+```
+127.0.0.1
+
+```
+
+Press ENTER
+
+
+
+
+
+### Step 5.5: Database Port
+
+#### You will see:
+
+```
+Please enter the database port: [3306]
+
+```
+#### Type:
+
+```
+3306
+
+```
+
+Press ENTER
+
+
+
+### Step 5.6: Database Name
+
+#### You will see:
+
+```
+Please enter the database name: [bagisto_laravel10]
+
+```
+#### Type:
+
+```
+bagisto_laravel10
+
+```
+
+Press ENTER
+
+
+
+
+### Step 5.7: Database Prefix
+
+#### You will see:
+
+```
+Please enter the database prefix:
+
+```
+#### Type:
+
+```
+(empty)
+
+```
+
+Press ENTER
+
+
+
+### Step 5.8: Database Username
+
+#### You will see:
+
+```
+Please enter your database username: [root]
+
+```
+#### Type:
+
+```
+root
+
+```
+
+Press ENTER
+
+
+
+
+### Step 5.9: Database Password
+
+#### You will see:
+
+```
+Please enter your database password:
+
+```
+#### Type:
+
+```
+(empty)
+
+```
+
+Press ENTER
+
+
+### After follow this step you see Create admin credentials...
+
+
+### Step 5.10: Admin User Name
+
+#### You will see:
+
+```
+Enter the name of the admin user: [Example]
+
+```
+#### Type:
+
+```
+(UserName) Demo
+
+```
+
+Press ENTER   
+
+
+
+
+### Step 5.11: Admin Email Address
+
+#### You will see:
+
+```
+Enter the email address of the admin user: [admin@example.com]
+
+```
+#### Type:
+
+```
+User@gmail.com  (demo123@gmail.com)
+
+```
+
+Press ENTER 
+
+
+
+### Step 5.12: Admin Password
+
+#### You will see:
+
+```
+Configure the password for the admin user: [admin123]
+
+```
+#### Type:
+
+```
+Example: admin123
+
+
+```
+
+Press ENTER 
+
+
+
+
+
+### Step 5.13: Sample Products Setup
+
+#### You will see:
+
+```
+Please select if you want some sample products after installation. [false]
+  true ............................................................................................................. 0
+  false ............................................................................................................ 1
+
+```
+#### Type:
+
+```
+true  -> 0
+
+```
+
+Press ENTER 
+
+
+
+
+### After You see:
+
+```
+Would you like to star our repo on GitHub? (yes/no) [no]:
+>
+
+```
+
+#### What to type
+
+Just press ENTER
+(or type no and press ENTER)
+
+```
+no
+
+```
+
+### After this
+
+#### Bagisto will:
+
+- Finish installation
+
+- Show success message
+
+#### You should see something like:
+
+```
+Bagisto installed successfully!
+
+```
+
+
+
+## STEP 6: Start the project
+
+### Run:
+
+```
+php artisan serve
+
+```
+
+### Open in Browser
+
+#### Frontend (Store)
+
+```
+http://127.0.0.1:8000
+
+```
+
+#### Admin Panel
+
+```
+http://127.0.0.1:8000/admin
+
+```
+
+#### Admin Login
+
+```
+Email: User@gmail.com
+Password: admin123
+
+
+
+```
+
+## So you can see this type Output:
+
+### Admin Login Page:
+
+
+<img width="1919" height="958" alt="Screenshot 2026-02-04 122542" src="https://github.com/user-attachments/assets/01161619-3289-4518-8f9f-e3c8540ebbd1" />
+
+
+### Admin login page contains:
+
+
+<img width="1919" height="965" alt="Screenshot 2026-02-04 122750" src="https://github.com/user-attachments/assets/e7100e11-a120-49bd-82b0-16320321c641" />
+
+
+
+<img width="1912" height="944" alt="Screenshot 2026-02-04 122806" src="https://github.com/user-attachments/assets/aae5984f-56a1-49dd-80a0-f88ccd122236" />
+
+
+
+<img width="1918" height="965" alt="Screenshot 2026-02-04 123013" src="https://github.com/user-attachments/assets/1b6e8e95-0da8-4dff-aa51-992372f71bce" />
+
+
+
+<img width="1919" height="958" alt="Screenshot 2026-02-04 123032" src="https://github.com/user-attachments/assets/fcc3a2c5-c610-4745-9f00-ac58643c9e78" />
+
+
+---
+
+
+
+# Project Folder Structure:
+
+```
+PHP_Laravel10_Bagisto/
+│
+├── app/
+│   ├── Console/
+│   ├── Exceptions/
+│   ├── Http/
+│   │   ├── Controllers/
+│   │   └── Middleware/
+│   ├── Models/
+│   └── Providers/
+│
+├── bootstrap/
+│   └── app.php
+│
+├── config/
+│   ├── app.php
+│   ├── database.php
+│   ├── bagisto.php
+│   └── cache.php
+│
+├── database/
+│   ├── migrations/
+│   ├── seeders/
+│   └── factories/
+│
+├── packages/
+│   └── Webkul/
+│       ├── Admin/
+│       ├── Catalog/
+│       ├── Customer/
+│       ├── Sales/
+│       └── Checkout/
+│
+├── public/
+│   ├── index.php
+│   ├── storage/
+│   └── themes/
+│
+├── resources/
+│   ├── views/
+│   ├── lang/
+│   ├── css/
+│   └── js/
+│
+├── routes/
+│   ├── web.php
+│   └── api.php
+│
+├── storage/
+│   ├── app/
+│   ├── framework/
+│   └── logs/
+│
+├── vendor/
+│
+├── .env
+├── artisan
+├── composer.json
+└── README.md
+
+```
